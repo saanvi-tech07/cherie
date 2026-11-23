@@ -1,0 +1,12 @@
+# Ignore local session files
+sessions/*
+!sessions/.gitkeep
+
+# Ignore OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Ignore editor settings
+.vscode/
+.idea/

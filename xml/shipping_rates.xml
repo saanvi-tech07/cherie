@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shipping_methods>
+    <method id="standard">
+        <code>STANDARD</code>
+        <name>Standard Boutique Delivery</name>
+        <estimated_days>3-5 business days</estimated_days>
+        <base_cost>99.00</base_cost>
+        <free_shipping_threshold>1499.00</free_shipping_threshold>
+        <description>Delivered with sustainable rose tissue packaging and ribbon seal.</description>
+    </method>
+    <method id="express">
+        <code>EXPRESS</code>
+        <name>Pink Priority Express Courier</name>
+        <estimated_days>1-2 business days</estimated_days>
+        <base_cost>199.00</base_cost>
+        <free_shipping_threshold>2999.00</free_shipping_threshold>
+        <description>Fast-tracked air courier with luxury rigid gift box unboxing.</description>
+    </method>
+</shipping_methods>

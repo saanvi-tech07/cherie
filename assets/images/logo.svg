@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80">
+  <defs>
+    <linearGradient id="roseGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#49383C" />
+      <stop offset="50%" stop-color="#C58A9C" />
+      <stop offset="100%" stop-color="#49383C" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(160, 36)" text-anchor="middle">
+    <!-- Monogram / Icon Heart Accent -->
+    <path d="M 0 -22 C -6 -28 -14 -22 -14 -14 C -14 -6 0 2 0 6 C 0 2 14 -6 14 -14 C 14 -22 6 -28 0 -22 Z" fill="#C58A9C" opacity="0.85"/>
+    <text y="14" font-family="Playfair Display, Georgia, serif" font-size="28" font-weight="600" letter-spacing="6" fill="#49383C">CHÉRIE</text>
+    <text y="30" font-family="Poppins, sans-serif" font-size="7.5" font-weight="300" letter-spacing="2.5" fill="#C58A9C" text-transform="uppercase">A Little Love in Every Detail</text>
+  </g>
+</svg>

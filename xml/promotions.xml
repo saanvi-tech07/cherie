@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<promotions>
+    <campaign>
+        <id>PROM-001</id>
+        <code>CHERIE15</code>
+        <title>Welcome to CHÉRIE</title>
+        <description>Enjoy 15% off on your first boutique purchase</description>
+        <discount_type>percentage</discount_type>
+        <discount_value>15</discount_value>
+        <min_order_amount>999.00</min_order_amount>
+        <max_discount_amount>500.00</max_discount_amount>
+        <start_date>2026-01-01</start_date>
+        <end_date>2027-12-31</end_date>
+        <badge_text>FIRST ORDER LOVE</badge_text>
+        <banner_active>true</banner_active>
+    </campaign>
+    <campaign>
+        <id>PROM-002</id>
+        <code>PARISIAN20</code>
+        <title>Mid-Season Parisian Romance</title>
+        <description>Flat 20% discount on orders above ₹2,499</description>
+        <discount_type>percentage</discount_type>
+        <discount_value>20</discount_value>
+        <min_order_amount>2499.00</min_order_amount>
+        <max_discount_amount>1000.00</max_discount_amount>
+        <start_date>2026-01-01</start_date>
+        <end_date>2027-12-31</end_date>
+        <badge_text>LIMITED EDITION</badge_text>
+        <banner_active>true</banner_active>
+    </campaign>
+    <campaign>
+        <id>PROM-003</id>
+        <code>FLAT200</code>
+        <title>Boutique Gift Voucher</title>
+        <description>Flat ₹200 off on any accessory or dress order</description>
+        <discount_type>flat</discount_type>
+        <discount_value>200</discount_value>
+        <min_order_amount>1499.00</min_order_amount>
+        <max_discount_amount>200.00</max_discount_amount>
+        <start_date>2026-01-01</start_date>
+        <end_date>2027-12-31</end_date>
+        <badge_text>WEEKEND PERK</badge_text>
+        <banner_active>false</banner_active>
+    </campaign>
+</promotions>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 650" width="1600" height="650">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9F5" />
+      <stop offset="50%" stop-color="#F7DCE5" />
+      <stop offset="100%" stop-color="#EAE3F5" />
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="80%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#F7DCE5" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+  <circle cx="1250" cy="220" r="320" fill="url(#sunGlow)"/>
+  
+  <!-- Architectural Parisian Arches -->
+  <g stroke="#C58A9C" stroke-width="1.2" fill="none" opacity="0.35">
+    <path d="M 1150 650 L 1150 250 A 180 180 0 0 1 1510 250 L 1510 650" />
+    <path d="M 1180 650 L 1180 270 A 150 150 0 0 1 1480 270 L 1480 650" />
+    <circle cx="1330" cy="180" r="40" stroke="#C58A9C" stroke-dasharray="3,4"/>
+  </g>
+
+  <!-- Editorial Text Content -->
+  <g transform="translate(140, 220)">
+    <rect x="0" y="0" width="160" height="28" rx="14" fill="#C58A9C" opacity="0.15" />
+    <text x="80" y="18" text-anchor="middle" font-family="Poppins, sans-serif" font-size="11" font-weight="600" letter-spacing="2" fill="#C58A9C">NEW COLLECTION 2026</text>
+    <text x="0" y="80" font-family="Playfair Display, Georgia, serif" font-size="56" font-weight="600" fill="#49383C" letter-spacing="1">Romance in</text>
+    <text x="0" y="145" font-family="Playfair Display, Georgia, serif" font-size="56" font-style="italic" font-weight="400" fill="#C58A9C" letter-spacing="1">Every Silhouette.</text>
+    <text x="0" y="195" font-family="Poppins, sans-serif" font-size="16" font-weight="300" fill="#665257" letter-spacing="0.5">Handcrafted fabrics, dreamy pastel silhouettes, and timeless Parisian charm.</text>
+    
+    <!-- CTA Button Aesthetic Vector -->
+    <g transform="translate(0, 240)">
+      <rect width="200" height="52" rx="26" fill="#49383C" />
+      <text x="100" y="32" text-anchor="middle" font-family="Poppins, sans-serif" font-size="13" font-weight="500" letter-spacing="1" fill="#FFFFFF">EXPLORE SHOP &rarr;</text>
+    </g>
+  </g>
+</svg>

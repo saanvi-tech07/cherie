@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" width="500" height="600">
+      <defs>
+        <linearGradient id="catGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#F7DCE5" />
+          <stop offset="100%" stop-color="#FFFFFF" />
+        </linearGradient>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#catGrad)" rx="24"/>
+      
+      <!-- Architectural Arch -->
+      <path d="M 70 560 L 70 240 A 180 180 0 0 1 430 240 L 430 560" fill="none" stroke="#C58A9C" stroke-width="1.5" opacity="0.3"/>
+      
+      <!-- Icon Emblem -->
+      <circle cx="250" cy="260" r="85" fill="#FFFFFF" filter="drop-shadow(0 8px 24px rgba(73, 56, 60, 0.08))"/>
+      <text x="250" y="290" text-anchor="middle" font-size="64">🩰</text>
+      
+      <!-- Label -->
+      <text x="250" y="420" text-anchor="middle" font-family="Playfair Display, Georgia, serif" font-size="30" font-weight="600" fill="#49383C">Skirts</text>
+      <text x="250" y="455" text-anchor="middle" font-family="Poppins, sans-serif" font-size="13" font-weight="400" letter-spacing="1" fill="#C58A9C">Pleated & Satin</text>
+      <line x1="210" y1="480" x2="290" y2="480" stroke="#C58A9C" stroke-width="1.5" opacity="0.4"/>
+    </svg>
