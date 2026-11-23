@@ -3,31 +3,35 @@ echo ========================================================
 echo   CHÉRIE BOUTIQUE — XAMPP DEPLOYMENT HELPER
 echo ========================================================
 echo.
-echo Copying CHÉRIE project into C:\xampp\htdocs\cherie ...
-echo.
 
-if not exist "C:\xampp\htdocs" (
-    echo [ERROR] Destination C:\xampp\htdocs was not found!
-    echo Please make sure XAMPP is installed at C:\xampp.
-    pause
-    exit /b 1
+rem Target 1: C:\newfolder\htdocs (Your active running XAMPP root)
+if exist "C:\newfolder\htdocs" (
+    echo Copying into active XAMPP root: C:\newfolder\htdocs\cherie ...
+    if not exist "C:\newfolder\htdocs\cherie" (
+        mkdir "C:\newfolder\htdocs\cherie"
+    )
+    xcopy "%~dp0*" "C:\newfolder\htdocs\cherie\" /E /I /Y /Q
+    echo [OK] Copied to C:\newfolder\htdocs\cherie
+    echo.
 )
 
-if not exist "C:\xampp\htdocs\cherie" (
-    mkdir "C:\xampp\htdocs\cherie"
+rem Target 2: C:\xampp\htdocs (Standard XAMPP root)
+if exist "C:\xampp\htdocs" (
+    echo Copying into standard XAMPP root: C:\xampp\htdocs\cherie ...
+    if not exist "C:\xampp\htdocs\cherie" (
+        mkdir "C:\xampp\htdocs\cherie"
+    )
+    xcopy "%~dp0*" "C:\xampp\htdocs\cherie\" /E /I /Y /Q
+    echo [OK] Copied to C:\xampp\htdocs\cherie
+    echo.
 )
 
-xcopy "%~dp0*" "C:\xampp\htdocs\cherie\" /E /I /Y /Q
-
-echo.
 echo ========================================================
-echo   SUCCESS! CHÉRIE has been copied to:
-echo   C:\xampp\htdocs\cherie
+echo   SUCCESS! Deployment complete.
 echo ========================================================
 echo.
 echo NEXT STEPS:
-echo 1. Open XAMPP Control Panel and START Apache and MySQL.
-echo 2. Open your browser and go to:
+echo 1. Open your browser and go to:
 echo    http://localhost/cherie/install.php
 echo.
 pause
